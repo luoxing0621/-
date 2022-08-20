@@ -1,0 +1,122 @@
+.my-header{
+  background: color #f2f2f2;
+  user-select: none;
+}
+.nav-cover{
+  width: 1200px;
+  margin: 0 auto;
+}
+.nav{
+  width: 1200px;
+  margin: 0 auto;
+}
+.nav{
+  width: 1200px;
+  margin: 6px auto;
+}
+.nav-top{
+  margin: 0 auto;
+  color:rgb(131, 117, 142); 
+  font-size: 14px;
+}
+ .nav-top .spanfocus:active{
+  color: #fff !important;
+  background-color: #60be74;
+  
+}
+.nav-top .nav-top-right{
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+  float: right
+}
+.nav-main{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.nav-main img{
+  margin: 10px 0;
+  width: 120px;
+}
+.nav-main img{
+  width: 120px;
+}
+.nav-main .input{
+  width: 370px;
+  border: 1px solid #61be74;
+  position: relative;
+  border-radius: 13px;
+  margin: 0 300px;
+}
+.nav-main .input input{
+  margin-left: 8px;
+  outline: none;
+  border: 0;
+  width: 360px;
+  height: 35px;
+}
+.nav-main .input span{
+ display: inline-block;
+  width:70px;
+  height: 37px;
+  text-align: center;
+  line-height: 37px;
+  background-color: #60be74;
+  position: absolute;
+  right:-1px;
+  bottom:-1px;
+  border-radius: 11px;
+  color: #fff;
+  
+}
+.nmain-right{
+  width: 110px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.nav-bottom{
+  background-color:#f4f4f4 ;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-bottom .nav-bot-center{
+  width: 600px;
+  display: flex;
+ justify-content: space-between;
+ margin-left: 50px;
+}
+.nav-bottom .nav-bot-center a{
+  width: 120px;
+  line-height:60px;
+  color: #717b88;
+  user-select: none;
+  cursor: pointer;
+}
+.nav-bot-center a.active{
+  color: #60be74;
+}
+.nav-bot-right{
+justify-content: space-between;
+width: 340px;
+}
+.nav-bot-right a{
+  display: inline-block;
+  width: 108px;
+  position: relative;
+  user-select: none;
+  cursor: pointer;
+}
+.nav-bot-right a span{
+  display: inline-block;
+  padding: 0 5px;
+  color: #717b88;
+  font-size: 14px;
+  position: absolute;
+  top: 20px;
+}
+.nav-bot-right img{
+  width: 25px;
+  margin-top: 16px;
+}
